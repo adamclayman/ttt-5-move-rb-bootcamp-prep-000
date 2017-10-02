@@ -14,6 +14,6 @@ def input_to_index(input)
 end
 
 def move(board, index)
-  board[index] = player_mark
+  board[index]
   return board
 end
